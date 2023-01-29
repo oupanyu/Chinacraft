@@ -1,0 +1,11 @@
+{
+  "type": "chinacraft:add_item",
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "minecraft:chests/bastion_treasure"
+    }
+  ],
+  "item": "chinacraft:the_spring_snow",
+  "chance": 0.6
+}

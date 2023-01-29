@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "chinacraft:block/slab_peeled_bamboo"
+    },
+    "type=double": {
+      "model": "chinacraft:block/peeled_bamboo_plank"
+    },
+    "type=top": {
+      "model": "chinacraft:block/slab_peeled_bamboo_top"
+    }
+  }
+}

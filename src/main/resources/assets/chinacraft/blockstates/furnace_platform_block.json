@@ -1,0 +1,34 @@
+{
+  "variants": {
+    "facing=north,fire=false": {
+      "model": "chinacraft:block/furnace_platform_block"
+    },
+    "facing=south,fire=false": {
+      "model": "chinacraft:block/furnace_platform_block",
+      "y": 180
+    },
+    "facing=west,fire=false": {
+      "model": "chinacraft:block/furnace_platform_block",
+      "y": 270
+    },
+    "facing=east,fire=false": {
+      "model": "chinacraft:block/furnace_platform_block",
+      "y": 90
+    },
+    "facing=north,fire=true": {
+      "model": "chinacraft:block/furnace_platform_block_on"
+    },
+    "facing=south,fire=true": {
+      "model": "chinacraft:block/furnace_platform_block_on",
+      "y": 180
+    },
+    "facing=west,fire=true": {
+      "model": "chinacraft:block/furnace_platform_block_on",
+      "y": 270
+    },
+    "facing=east,fire=true": {
+      "model": "chinacraft:block/furnace_platform_block_on",
+      "y": 90
+    }
+  }
+}

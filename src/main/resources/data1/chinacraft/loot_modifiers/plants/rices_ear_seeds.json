@@ -1,0 +1,11 @@
+{
+  "type": "chinacraft:add_item",
+  "conditions": [
+    {
+      "condition": "block_state_property",
+      "block": "minecraft:grass"
+    }
+  ],
+  "item": "chinacraft:rices_ear_seeds",
+  "chance": 0.1
+}

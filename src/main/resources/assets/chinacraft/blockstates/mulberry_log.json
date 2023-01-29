@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "chinacraft:block/mulberry_log_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "chinacraft:block/mulberry_log"
+    },
+    "axis=z": {
+      "model": "chinacraft:block/mulberry_log_horizontal",
+      "x": 90
+    }
+  }
+}

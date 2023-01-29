@@ -1,0 +1,12 @@
+{
+  "type": "chinacraft:stone_mortar_type",
+  "ingredients": [
+      {
+        "item": "minecraft:wheat"
+      }
+  ],
+  "output": {
+    "item": "chinacraft:flour",
+    "count": 1
+  }
+}

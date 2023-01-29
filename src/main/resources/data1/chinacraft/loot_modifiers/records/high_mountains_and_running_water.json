@@ -1,0 +1,11 @@
+{
+  "type": "chinacraft:add_item",
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "minecraft:chests/abandoned_mineshaft"
+    }
+  ],
+  "item": "chinacraft:high_mountains_and_running_water",
+  "chance": 0.6
+}

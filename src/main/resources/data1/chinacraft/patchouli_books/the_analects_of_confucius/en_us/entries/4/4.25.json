@@ -1,0 +1,16 @@
+{
+  "name": "4·25小节",
+  "icon": "minecraft:writable_book",
+  "category": "chinacraft:4",
+  "sortnum": 91,
+  "pages": [
+    {
+      "type": "text",
+      "text": "子曰：“德不孤，必有邻。”"
+    },
+    {
+      "type": "text",
+      "text": "孔子说：“有道德的人是不会孤立的，一定会有思想一致的人与他相处。”"
+    }
+  ]
+}

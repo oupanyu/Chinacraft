@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " A ",
+    "AAA",
+    " B "
+  ],
+  "key": {
+    "A": {
+      "item": "chinacraft:peach_planks"
+    },
+    "B": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "chinacraft:peach_wood_sword",
+    "count": 1
+  }
+}

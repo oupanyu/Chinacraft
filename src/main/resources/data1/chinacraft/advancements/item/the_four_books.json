@@ -1,0 +1,89 @@
+{
+  "parent": "chinacraft:root",
+  "display": {
+    "icon": {
+      "item": "patchouli:guide_book",
+      "nbt": "{\"patchouli:book\":\"chinacraft:the_analects_of_confucius\"}"
+    },
+    "title": {
+      "color": "dark_green",
+      "translate": "advancements.chinacraft.item.four_books.title"
+    },
+    "description": {
+      "color": "white",
+      "translate": "advancements.chinacraft.item.four_books.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "the_analects_of_confucius": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "patchouli:guide_book"
+            ],
+            "nbt": "{\"patchouli:book\":\"chinacraft:the_analects_of_confucius\"}"
+          }
+        ]
+      }
+    },
+    "the_doctrine_of_the_mean": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "patchouli:guide_book"
+            ],
+            "nbt": "{\"patchouli:book\":\"chinacraft:the_doctrine_of_the_mean\"}"
+          }
+        ]
+      }
+    },
+    "university": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "patchouli:guide_book"
+            ],
+            "nbt": "{\"patchouli:book\":\"chinacraft:university\"}"
+          }
+        ]
+      }
+    },
+    "mencius": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "patchouli:guide_book"
+            ],
+            "nbt": "{\"patchouli:book\":\"chinacraft:mencius\"}"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "the_analects_of_confucius"
+    ],
+    [
+      "the_doctrine_of_the_mean"
+    ],
+    [
+      "university"
+    ],
+    [
+      "mencius"
+    ]
+  ]
+}

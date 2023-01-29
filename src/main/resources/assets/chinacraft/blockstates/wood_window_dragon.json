@@ -1,0 +1,77 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "chinacraft:block/wood_window_post_dragon"
+      }
+    },
+    {
+      "when": {
+        "north": "true"
+      },
+      "apply": {
+        "model": "chinacraft:block/wood_window_side_dragon"
+      }
+    },
+    {
+      "when": {
+        "east": "true"
+      },
+      "apply": {
+        "model": "chinacraft:block/wood_window_side_dragon",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "south": "true"
+      },
+      "apply": {
+        "model": "chinacraft:block/wood_window_side_alt_dragon"
+      }
+    },
+    {
+      "when": {
+        "west": "true"
+      },
+      "apply": {
+        "model": "chinacraft:block/wood_window_side_alt_dragon",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "north": "false"
+      },
+      "apply": {
+        "model": "chinacraft:block/wood_window_noside_dragon"
+      }
+    },
+    {
+      "when": {
+        "east": "false"
+      },
+      "apply": {
+        "model": "chinacraft:block/wood_window_noside_alt_dragon"
+      }
+    },
+    {
+      "when": {
+        "south": "false"
+      },
+      "apply": {
+        "model": "chinacraft:block/wood_window_noside_alt_dragon",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "west": "false"
+      },
+      "apply": {
+        "model": "chinacraft:block/wood_window_noside_dragon",
+        "y": 270
+      }
+    }
+  ]
+}

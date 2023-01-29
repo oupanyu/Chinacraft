@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "age=0": {
+      "model": "chinacraft:block/rices_ear_stage0"
+    },
+    "age=1": {
+      "model": "chinacraft:block/rices_ear_stage1"
+    },
+    "age=2": {
+      "model": "chinacraft:block/rices_ear_stage2"
+    },
+    "age=3": {
+      "model": "chinacraft:block/rices_ear_stage3"
+    },
+    "age=4": {
+      "model": "chinacraft:block/rices_ear_stage4"
+    },
+    "age=5": {
+      "model": "chinacraft:block/rices_ear_stage5"
+    },
+    "age=6": {
+      "model": "chinacraft:block/rices_ear_stage6"
+    },
+    "age=7": {
+      "model": "chinacraft:block/rices_ear_stage7"
+    }
+  }
+}

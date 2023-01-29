@@ -1,0 +1,16 @@
+{
+  "name": "3·26小节",
+  "icon": "minecraft:writable_book",
+  "category": "chinacraft:3",
+  "sortnum": 66,
+  "pages": [
+    {
+      "type": "text",
+      "text": "子曰：“居上不宽，为礼不敬，临丧不哀，吾何以观之哉？”"
+    },
+    {
+      "type": "text",
+      "text": "孔子说：“居于执政地位的人，不能宽厚待人，行礼的时候不严肃，参加丧礼时也不悲哀，这种情况我怎么能看得下去呢？”"
+    }
+  ]
+}

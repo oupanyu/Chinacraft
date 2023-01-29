@@ -1,0 +1,16 @@
+{
+  "name": "5·4小节",
+  "icon": "minecraft:writable_book",
+  "category": "chinacraft:5",
+  "sortnum": 96,
+  "pages": [
+    {
+      "type": "text",
+      "text": "子贡问曰：“赐也何如？”子曰：“女，器也。”曰：“何器也？”曰：“瑚琏也。”"
+    },
+    {
+      "type": "text",
+      "text": "子贡问孔子：“我这个人怎么样？”孔子说：“你呀，好比一个器具。”子贡又问：“是什么器具呢？”孔子说：“是瑚琏。”"
+    }
+  ]
+}

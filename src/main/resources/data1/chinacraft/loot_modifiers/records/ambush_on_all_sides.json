@@ -1,0 +1,11 @@
+{
+  "type": "chinacraft:add_item",
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "minecraft:chests/jungle_temple"
+    }
+  ],
+  "item": "chinacraft:ambush_on_all_sides",
+  "chance": 0.6
+}

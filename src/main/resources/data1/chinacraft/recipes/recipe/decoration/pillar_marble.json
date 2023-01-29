@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "## ",
+    "## ",
+    "   "
+  ],
+  "key": {
+    "#": {
+      "item": "chinacraft:smooth_marble"
+    }
+  },
+  "result": {
+    "item": "chinacraft:pillar_marble",
+    "count": 4
+  }
+}

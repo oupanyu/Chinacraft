@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "chinacraft:item/yan_long_big_knife"
+  }
+}

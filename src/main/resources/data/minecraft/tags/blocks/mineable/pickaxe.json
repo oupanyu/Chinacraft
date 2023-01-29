@@ -1,0 +1,33 @@
+{
+  "replace": false,
+  "values": [
+    "chinacraft:copper_ore",
+    "chinacraft:tin_ore",
+    "chinacraft:silver_ore",
+    "chinacraft:jade_ore",
+    "chinacraft:copper_block",
+    "chinacraft:bronze_block",
+    "chinacraft:tin_block",
+    "chinacraft:silver_block",
+    "chinacraft:stone_lantern",
+    "chinacraft:smooth_marble",
+    "chinacraft:pillar_marble",
+    "chinacraft:chiseled_marble",
+    "chinacraft:pillar_marble",
+    "chinacraft:slab_marble",
+    "chinacraft:stair_marble",
+    "chinacraft:brick_black",
+    "chinacraft:stair_brick_black",
+    "chinacraft:slab_brick_black",
+    "chinacraft:lantern_festival_lanterns",
+    "chinacraft:fire_brick_block",
+    "chinacraft:mossy_brick_black",
+    "chinacraft:blacker_brick_black",
+    "chinacraft:marble_wall",
+    "chinacraft:brick_black_wall",
+    "chinacraft:furnace_platform_block",
+    "chinacraft:jade_workbench_block",
+    "chinacraft:sericulture_frame_block",
+    "chinacraft:stone_mortar_block"
+  ]
+}

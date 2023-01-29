@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "chinacraft:item/peach_wood_sword"
+  }
+}

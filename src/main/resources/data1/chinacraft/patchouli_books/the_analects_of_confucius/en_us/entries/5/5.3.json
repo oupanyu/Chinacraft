@@ -1,0 +1,16 @@
+{
+  "name": "5·3小节",
+  "icon": "minecraft:writable_book",
+  "category": "chinacraft:5",
+  "sortnum": 95,
+  "pages": [
+    {
+      "type": "text",
+      "text": "子谓子贱，君子哉若人，鲁无君子者，斯焉取斯。”"
+    },
+    {
+      "type": "text",
+      "text": "孔子评论子贱说：“这个人真是个君子呀。如果鲁国没有君子的话，他是从哪里学到这种品德的呢？”"
+    }
+  ]
+}

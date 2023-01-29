@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_column",
+  "textures": {
+    "end": "chinacraft:block/mulberry_log_top",
+    "side": "chinacraft:block/mulberry_log"
+  }
+}

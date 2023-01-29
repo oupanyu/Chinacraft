@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "chinacraft:copper_ingot",
+    "chinacraft:bronze_ingot",
+    "chinacraft:silver_ingot",
+    "chinacraft:tin_ingot"
+  ]
+}

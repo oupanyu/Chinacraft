@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/template_glass_pane_side_alt",
+  "textures": {
+    "pane": "chinacraft:block/wood_window2",
+    "edge": "chinacraft:block/wood_window_top"
+  },
+  "render_type": "translucent"
+}

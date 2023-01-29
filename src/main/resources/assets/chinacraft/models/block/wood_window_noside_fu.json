@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/template_glass_pane_noside",
+  "textures": {
+    "pane": "chinacraft:block/wood_window_fu"
+  },
+  "render_type": "translucent"
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "B#B",
+    "#A#",
+    "B#B"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "A": {
+      "item": "chinacraft:art_cutting_knife"
+    },
+    "B": {
+      "tag": "minecraft:logs"
+    }
+  },
+  "result": {
+    "item": "chinacraft:wood_window3",
+    "count": 4
+  }
+}

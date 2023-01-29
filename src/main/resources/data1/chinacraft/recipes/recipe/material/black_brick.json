@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "A##",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:brick"
+    },
+    "A": {
+      "item": "minecraft:water_bucket"
+    }
+  },
+  "result": {
+    "item": "chinacraft:black_brick",
+    "count": 8
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "chinacraft:add_item_tag",
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "minecraft:chests/nether_bridge"
+    }
+  ],
+  "item": "patchouli:guide_book",
+  "nbt": "{\"patchouli:book\":\"chinacraft:mencius\"}",
+  "chance": 0.6
+}

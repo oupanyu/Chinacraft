@@ -1,0 +1,89 @@
+{
+  "fire_cracker": {
+    "category": "blocks",
+    "subtitle": "chinacraft.fire_cracker",
+    "sounds": [
+      "chinacraft:firecracker/f1"
+    ]
+  },
+  "high_mountains_and_running_water": {
+    "sounds": [
+      {
+        "name": "chinacraft:records/high_mountains_and_running_water",
+        "stream": true
+      }
+    ]
+  },
+  "the_plum_blossom_melody_play_three_times": {
+    "sounds": [
+      {
+        "name": "chinacraft:records/the_plum_blossom_melody_play_three_times",
+        "stream": true
+      }
+    ]
+  },
+  "sunset_flute_and_drum": {
+    "sounds": [
+      {
+        "name": "chinacraft:records/sunset_flute_and_drum",
+        "stream": true
+      }
+    ]
+  },
+  "autumn_moon_in_han_palace": {
+    "sounds": [
+      {
+        "name": "chinacraft:records/autumn_moon_in_han_palace",
+        "stream": true
+      }
+    ]
+  },
+  "the_spring_snow": {
+    "sounds": [
+      {
+        "name": "chinacraft:records/the_spring_snow",
+        "stream": true
+      }
+    ]
+  },
+  "dialogue_between_the_fisherman_and_the_woodcutter": {
+    "sounds": [
+      {
+        "name": "chinacraft:records/dialogue_between_the_fisherman_and_the_woodcutter",
+        "stream": true
+      }
+    ]
+  },
+  "a_song_for_a_barbarian_reed_pipe": {
+    "sounds": [
+      {
+        "name": "chinacraft:records/a_song_for_a_barbarian_reed_pipe",
+        "stream": true
+      }
+    ]
+  },
+  "guang_ling_verse": {
+    "sounds": [
+      {
+        "name": "chinacraft:records/guang_ling_verse",
+        "stream": true
+      }
+    ]
+  },
+  "wild_goose_falling_in_pingsha": {
+    "sounds": [
+      {
+        "name": "chinacraft:records/wild_goose_falling_in_pingsha",
+        "stream": true
+      }
+    ]
+  },
+  "ambush_on_all_sides": {
+    "sounds": [
+      {
+        "name": "chinacraft:records/ambush_on_all_sides",
+        "stream": true
+      }
+    ]
+  }
+}

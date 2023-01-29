@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "chinacraft:silkworm_chrysalis"
+    }
+  ],
+  "result": {
+    "item": "chinacraft:raw_silk",
+    "count": 4
+  }
+}

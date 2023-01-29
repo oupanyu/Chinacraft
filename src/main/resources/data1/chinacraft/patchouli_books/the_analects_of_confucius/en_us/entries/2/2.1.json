@@ -1,0 +1,16 @@
+{
+  "name": "2·1小节",
+  "icon": "minecraft:writable_book",
+  "category": "chinacraft:2",
+  "sortnum": 17,
+  "pages": [
+    {
+      "type": "text",
+      "text": "子曰：“为政以德，譬如北辰，居其所而众星共之。”"
+    },
+    {
+      "type": "text",
+      "text": "孔子说：“（周君）以道德教化来治理政事，就会像北极星那样，自己居于一定的方位，而群星都会环绕在它的周围。”"
+    }
+  ]
+}

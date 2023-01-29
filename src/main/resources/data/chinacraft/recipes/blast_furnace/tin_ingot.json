@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "chinacraft:tin_ore"
+  },
+  "result": "chinacraft:tin_ingot",
+  "experience": 0.35,
+  "cookingtime": 140
+}

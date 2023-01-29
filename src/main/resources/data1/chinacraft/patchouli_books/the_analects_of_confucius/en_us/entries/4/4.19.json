@@ -1,0 +1,16 @@
+{
+  "name": "4·19小节",
+  "icon": "minecraft:writable_book",
+  "category": "chinacraft:4",
+  "sortnum": 85,
+  "pages": [
+    {
+      "type": "text",
+      "text": "子曰：“父母在，不远游，游必有方。”"
+    },
+    {
+      "type": "text",
+      "text": "孔子说：“父母在世，不远离家乡；如果不得已要出远门，也必须有一定的地方。”"
+    }
+  ]
+}

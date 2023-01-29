@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/template_fence_gate_wall",
+  "textures": {
+    "texture": "chinacraft:block/peeled_bamboo_plank"
+  },
+  "render_type": "translucent"
+}

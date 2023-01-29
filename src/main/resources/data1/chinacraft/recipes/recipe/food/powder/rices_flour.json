@@ -1,0 +1,12 @@
+{
+  "type": "chinacraft:stone_mortar_type",
+  "ingredients": [
+      {
+        "item": "chinacraft:rices_ear"
+      }
+  ],
+  "output": {
+    "item": "chinacraft:rices_flour",
+    "count": 1
+  }
+}

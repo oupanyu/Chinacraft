@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "entries": [
+    "chinacraft:records/high_mountains_and_running_water",
+    "chinacraft:records/the_plum_blossom_melody_play_three_times",
+    "chinacraft:records/sunset_flute_and_drum",
+    "chinacraft:records/autumn_moon_in_han_palace",
+    "chinacraft:records/the_spring_snow",
+    "chinacraft:records/dialogue_between_the_fisherman_and_the_woodcutter",
+    "chinacraft:records/a_song_for_a_barbarian_reed_pipe",
+    "chinacraft:records/guang_ling_verse",
+    "chinacraft:records/wild_goose_falling_in_pingsha",
+    "chinacraft:records/ambush_on_all_sides",
+
+    "chinacraft:books/mencius",
+    "chinacraft:books/the_analects_of_confucius",
+    "chinacraft:books/the_doctrine_of_the_mean",
+    "chinacraft:books/university",
+
+    "chinacraft:plants/rices_ear_seeds"
+  ]
+}

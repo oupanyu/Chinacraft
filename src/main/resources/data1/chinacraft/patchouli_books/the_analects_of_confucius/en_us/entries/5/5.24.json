@@ -1,0 +1,16 @@
+{
+  "name": "5·24小节",
+  "icon": "minecraft:writable_book",
+  "category": "chinacraft:5",
+  "sortnum": 116,
+  "pages": [
+    {
+      "type": "text",
+      "text": "子曰：“孰谓微生高直？或乞醯焉，乞诸其邻而与之。”"
+    },
+    {
+      "type": "text",
+      "text": "孔子说：“谁说微生高这个人直率？有人向他讨点醋，他（不直说没有，却暗地）到他邻居家里讨了点给人家。”"
+    }
+  ]
+}

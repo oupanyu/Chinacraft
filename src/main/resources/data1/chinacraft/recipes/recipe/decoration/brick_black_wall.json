@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "AAA",
+    "   "
+  ],
+  "key": {
+    "A": {
+      "item": "chinacraft:brick_black"
+    }
+  },
+  "result": {
+    "item": "chinacraft:brick_black_wall",
+    "count": 6
+  }
+}

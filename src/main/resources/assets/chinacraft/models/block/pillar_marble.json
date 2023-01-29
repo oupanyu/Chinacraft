@@ -1,0 +1,9 @@
+{
+  "parent": "block/orientable",
+  "textures": {
+    "side": "chinacraft:block/pillar_marble",
+    "front": "chinacraft:block/pillar_marble",
+    "top": "chinacraft:block/pillar_marble_top",
+    "down": "chinacraft:block/pillar_marble_top"
+  }
+}

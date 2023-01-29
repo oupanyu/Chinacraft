@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "#A#",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "chinacraft:peeled_bamboo"
+    },
+    "A": {
+      "item": "chinacraft:art_cutting_knife"
+    }
+  },
+  "result": {
+    "item": "chinacraft:peeled_bamboo_window2",
+    "count": 1
+  }
+}

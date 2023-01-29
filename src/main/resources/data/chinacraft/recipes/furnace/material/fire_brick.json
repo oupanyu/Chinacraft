@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "chinacraft:clay_sand_mixture"
+  },
+  "result": "chinacraft:fire_brick",
+  "experience": 0.35,
+  "cookingtime": 200
+}

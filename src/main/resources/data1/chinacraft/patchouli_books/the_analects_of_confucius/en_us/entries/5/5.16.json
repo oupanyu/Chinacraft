@@ -1,0 +1,16 @@
+{
+  "name": "5·16小节",
+  "icon": "minecraft:writable_book",
+  "category": "chinacraft:5",
+  "sortnum": 108,
+  "pages": [
+    {
+      "type": "text",
+      "text": "子谓子产有君子之道四焉：“其行己也恭，其事上也敬，其养民也惠，其使民也义。”"
+    },
+    {
+      "type": "text",
+      "text": "孔子评论子产说：他有君子的四种道德：“他自己行为庄重，他事奉君主恭敬，他养护百姓有恩惠，他役使百姓有法度。”"
+    }
+  ]
+}

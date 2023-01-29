@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "chinacraft:bronze_block"
+    }
+  ],
+  "result": {
+    "item": "chinacraft:bronze_ingot",
+    "count": 9
+  }
+}

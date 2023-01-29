@@ -1,0 +1,16 @@
+{
+  "name": "2·24小节",
+  "icon": "minecraft:writable_book",
+  "category": "chinacraft:2",
+  "sortnum": 40,
+  "pages": [
+    {
+      "type": "text",
+      "text": "子曰：“非其鬼而祭之，谄也。见义不为，无勇也。”"
+    },
+    {
+      "type": "text",
+      "text": "孔子说：“不是你应该祭的鬼神，你却去祭它，这就是谄媚。见到应该挺身而出的事情却袖手旁观，就是怯懦。”"
+    }
+  ]
+}

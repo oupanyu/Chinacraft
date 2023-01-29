@@ -1,0 +1,16 @@
+{
+  "name": "4·21小节",
+  "icon": "minecraft:writable_book",
+  "category": "chinacraft:4",
+  "sortnum": 87,
+  "pages": [
+    {
+      "type": "text",
+      "text": "子曰：“父母之年，不可不知也。一则以喜，一则以惧。”"
+    },
+    {
+      "type": "text",
+      "text": "孔子说：“父母的生日，不能不知道，一方面该高兴，另一方面该害怕。”"
+    }
+  ]
+}

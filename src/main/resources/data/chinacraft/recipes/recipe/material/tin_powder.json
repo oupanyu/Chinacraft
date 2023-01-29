@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    [
+      {
+        "item": "chinacraft:stone_hammer"
+      },
+      {
+        "item": "chinacraft:iron_hammer"
+      },
+      {
+        "item": "chinacraft:bronze_hammer"
+      },
+      {
+        "item": "chinacraft:diamond_hammer"
+      }
+    ],
+    {
+      "tag": "forge:ingots/tin"
+    }
+  ],
+  "result": {
+    "item": "chinacraft:tin_powder",
+    "count": 1
+  }
+}

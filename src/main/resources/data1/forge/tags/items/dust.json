@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "chinacraft:bronze_powder",
+    "chinacraft:tin_powder",
+    "chinacraft:salt",
+    "chinacraft:copper_powder"
+  ]
+}

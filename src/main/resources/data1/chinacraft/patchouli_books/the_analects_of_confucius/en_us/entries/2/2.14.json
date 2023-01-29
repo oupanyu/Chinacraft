@@ -1,0 +1,16 @@
+{
+  "name": "2·14小节",
+  "icon": "minecraft:writable_book",
+  "category": "chinacraft:2",
+  "sortnum": 30,
+  "pages": [
+    {
+      "type": "text",
+      "text": "子曰：“君子周而不比，小人比而不周。”"
+    },
+    {
+      "type": "text",
+      "text": "孔子说：“君子合群而不与人勾结，小人与人勾结而不合群。“"
+    }
+  ]
+}

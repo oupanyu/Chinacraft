@@ -1,0 +1,11 @@
+{
+  "type": "chinacraft:add_item",
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "minecraft:chests/bastion_bridge"
+    }
+  ],
+  "item": "chinacraft:the_plum_blossom_melody_play_three_times",
+  "chance": 0.6
+}

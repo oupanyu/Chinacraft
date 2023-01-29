@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "top": "chinacraft:block/furnace_platform_top_off",
+    "front": "chinacraft:block/furnace_platform_front_off",
+    "side": "chinacraft:block/furnace_platform_side",
+    "down": "chinacraft:block/furnace_platform_bottom"
+  }
+}

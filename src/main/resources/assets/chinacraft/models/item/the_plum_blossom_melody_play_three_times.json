@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "chinacraft:item/the_plum_blossom_melody_play_three_times"
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "chinacraft:block/peeled_bamboo_window_post2"
+      }
+    },
+    {
+      "when": {
+        "north": "true"
+      },
+      "apply": {
+        "model": "chinacraft:block/peeled_bamboo_window_side2"
+      }
+    },
+    {
+      "when": {
+        "east": "true"
+      },
+      "apply": {
+        "model": "chinacraft:block/peeled_bamboo_window_side2",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "south": "true"
+      },
+      "apply": {
+        "model": "chinacraft:block/peeled_bamboo_window_side_alt2"
+      }
+    },
+    {
+      "when": {
+        "west": "true"
+      },
+      "apply": {
+        "model": "chinacraft:block/peeled_bamboo_window_side_alt2",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "north": "false"
+      },
+      "apply": {
+        "model": "chinacraft:block/peeled_bamboo_window_noside2"
+      }
+    },
+    {
+      "when": {
+        "east": "false"
+      },
+      "apply": {
+        "model": "chinacraft:block/peeled_bamboo_window_noside_alt2"
+      }
+    },
+    {
+      "when": {
+        "south": "false"
+      },
+      "apply": {
+        "model": "chinacraft:block/peeled_bamboo_window_noside_alt2",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "west": "false"
+      },
+      "apply": {
+        "model": "chinacraft:block/peeled_bamboo_window_noside2",
+        "y": 270
+      }
+    }
+  ]
+}

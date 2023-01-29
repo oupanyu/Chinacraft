@@ -1,0 +1,16 @@
+{
+  "name": "4·7小节",
+  "icon": "minecraft:writable_book",
+  "category": "chinacraft:4",
+  "sortnum": 73,
+  "pages": [
+    {
+      "type": "text",
+      "text": "子曰：“人之过也，各于其党。观过，斯知仁矣。”"
+    },
+    {
+      "type": "text",
+      "text": "孔子说：“人们的错误，总是与他那个集团的人所犯错误的性质是一样的。所以，考察一个人所犯的错误，就可以知道他有没有仁德了。”"
+    }
+  ]
+}

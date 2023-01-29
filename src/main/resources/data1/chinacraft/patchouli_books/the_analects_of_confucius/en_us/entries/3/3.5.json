@@ -1,0 +1,16 @@
+{
+  "name": "3·5小节",
+  "icon": "minecraft:writable_book",
+  "category": "chinacraft:3",
+  "sortnum": 45,
+  "pages": [
+    {
+      "type": "text",
+      "text": "子曰：“夷狄之有君，不如诸夏之亡也。”"
+    },
+    {
+      "type": "text",
+      "text": "孔子说：“夷狄（文化落后）虽然有君主，还不如中原诸国没有君主呢。”"
+    }
+  ]
+}

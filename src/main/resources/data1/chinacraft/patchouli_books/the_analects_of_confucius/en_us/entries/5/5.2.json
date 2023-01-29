@@ -1,0 +1,16 @@
+{
+  "name": "5·2小节",
+  "icon": "minecraft:writable_book",
+  "category": "chinacraft:5",
+  "sortnum": 94,
+  "pages": [
+    {
+      "type": "text",
+      "text": "子谓南容，“邦有道，不废；邦无道，免于刑戮。”以其兄之子妻之。"
+    },
+    {
+      "type": "text",
+      "text": "孔子评论南容说：“国家有道时，他有官做；国家无道时，他也可以免去刑戮。”于是把自己的侄女嫁给了他。"
+    }
+  ]
+}

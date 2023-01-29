@@ -1,0 +1,16 @@
+{
+  "name": "4·23小节",
+  "icon": "minecraft:writable_book",
+  "category": "chinacraft:4",
+  "sortnum": 89,
+  "pages": [
+    {
+      "type": "text",
+      "text": "子曰：“以约，失之者鲜矣。”"
+    },
+    {
+      "type": "text",
+      "text": "孔子说：“用礼来约束自己，所犯的错误就少了。”"
+    }
+  ]
+}

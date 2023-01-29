@@ -1,0 +1,41 @@
+{
+  "type": "chinacraft:jade_workbench_type",
+  "ingredients": [
+    [
+      {
+        "item": "chinacraft:stone_hammer"
+      },
+      {
+        "item": "chinacraft:iron_hammer"
+      },
+      {
+        "item": "chinacraft:bronze_hammer"
+      },
+      {
+        "item": "chinacraft:diamond_hammer"
+      }
+    ],
+    [
+      {
+        "item": "chinacraft:jade_ore"
+      },
+      [
+        {
+          "item": "chinacraft:jade"
+        },
+        {
+          "item": "chinacraft:jasper"
+        },
+        {
+          "item": "chinacraft:hibiscus_jade"
+        },
+        {
+          "item": "chinacraft:purple_jade"
+        }
+      ]
+    ]
+  ],
+  "output": {
+    "item": "minecraft:stone"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "chinacraft:item/dialogue_between_the_fisherman_and_the_woodcutter"
+  }
+}

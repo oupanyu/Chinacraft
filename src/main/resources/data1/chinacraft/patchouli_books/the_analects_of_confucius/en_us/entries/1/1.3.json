@@ -1,0 +1,16 @@
+{
+  "name": "1·3小节",
+  "icon": "minecraft:writable_book",
+  "category": "chinacraft:1",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "text",
+      "text": "子曰:“巧言令色，鲜矣仁。”"
+    },
+    {
+      "type": "text",
+      "text": "孔子说：“花言巧语，装出和颜悦色的样子，这种人很少有仁德的。”"
+    }
+  ]
+}

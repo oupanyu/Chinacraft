@@ -1,0 +1,16 @@
+{
+  "name": "3·17小节",
+  "icon": "minecraft:writable_book",
+  "category": "chinacraft:3",
+  "sortnum": 57,
+  "pages": [
+    {
+      "type": "text",
+      "text": "子贡欲去告朔之饩羊。子曰：“赐也！尔爱其羊，我爱其礼。”"
+    },
+    {
+      "type": "text",
+      "text": "子贡提出去掉每月初一日告祭祖庙用的活羊。孔子说：“赐，你爱惜那只羊，我却爱惜那种礼。”"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "5·18小节",
+  "icon": "minecraft:writable_book",
+  "category": "chinacraft:5",
+  "sortnum": 110,
+  "pages": [
+    {
+      "type": "text",
+      "text": "子曰：“臧文仲居蔡，山节藻棁，何如其知也！”"
+    },
+    {
+      "type": "text",
+      "text": "孔子说：“臧文仲藏了一只大龟，藏龟的屋子斗拱雕成山的形状，短柱上画以水草花纹，他这个人怎么能算是有智慧呢？”"
+    }
+  ]
+}

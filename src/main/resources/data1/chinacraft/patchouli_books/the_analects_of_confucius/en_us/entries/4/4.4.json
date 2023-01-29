@@ -1,0 +1,16 @@
+{
+  "name": "4·4小节",
+  "icon": "minecraft:writable_book",
+  "category": "chinacraft:4",
+  "sortnum": 70,
+  "pages": [
+    {
+      "type": "text",
+      "text": "子曰：“苟志于仁矣，无恶也。”"
+    },
+    {
+      "type": "text",
+      "text": "孔子说：“如果立志于仁，就不会做坏事了。”"
+    }
+  ]
+}

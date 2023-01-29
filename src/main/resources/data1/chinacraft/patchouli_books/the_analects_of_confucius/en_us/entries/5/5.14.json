@@ -1,0 +1,16 @@
+{
+  "name": "5·14小节",
+  "icon": "minecraft:writable_book",
+  "category": "chinacraft:5",
+  "sortnum": 106,
+  "pages": [
+    {
+      "type": "text",
+      "text": "子路有闻，未之能行，唯恐有闻。"
+    },
+    {
+      "type": "text",
+      "text": "子路在听到一条道理但没有能亲自实行的时候，惟恐又听到新的道理。"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "chinacraft",
+  "version": "${version}",
+  "name": "Chinacraft",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "unlicense",
+  "icon": "assets/chinacraft/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "ocean.chinacraft.client.ChinacraftClient"
+    ],
+    "main": [
+      "ocean.chinacraft.Chinacraft"
+    ],
+    "modmenu": [
+      "ocean.chinacraft.client.modmenu.ModMenuIntegration"
+    ]
+  },
+  "mixins": [
+    "chinacraft.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.12",
+    "fabric": "*",
+    "minecraft": "1.18.2",
+    "cloth-config": "*"
+  }
+}

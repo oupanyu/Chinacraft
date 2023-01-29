@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "chinacraft:brick_black"
+    }
+  },
+  "result": {
+    "item": "chinacraft:stair_brick_black",
+    "count": 3
+  }
+}

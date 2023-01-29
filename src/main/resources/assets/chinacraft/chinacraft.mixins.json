@@ -1,0 +1,21 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "compatibilityLevel": "JAVA_17",
+  "package": "ocean.chinacraft.mixin",
+  "mixins": [
+//    "AbstractFurnaceBlockEntityForgeAccessor",
+//    "RecipeProviderForgeAccessor",
+//    "RegistryForgeAccessor",
+//    "RecipeSerializerBaseForgeMixin"
+  ],
+  "client": [
+//    "client.ModelBakeryForgeAccessor",
+//    "client.ItemBlockWithSpecialRendererForgeMixin",
+//    "client.ItemManasteelArmorForgeMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "refmap": "chinacraft.refmap.json"
+}

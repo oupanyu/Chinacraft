@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "chinacraft:block/mulberry_sapling"
+  },
+  "render_type": "cutout"
+}

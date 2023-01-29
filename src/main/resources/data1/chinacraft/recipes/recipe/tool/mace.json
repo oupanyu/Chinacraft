@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " BC",
+    "#AB",
+    "## "
+  ],
+  "key": {
+    "A": {
+      "tag": "forge:ingots/bronze"
+    },
+    "B": {
+      "item": "minecraft:diamond"
+    },
+    "C": {
+      "item": "minecraft:obsidian"
+    },
+    "#": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "chinacraft:mace",
+    "count": 1
+  }
+}

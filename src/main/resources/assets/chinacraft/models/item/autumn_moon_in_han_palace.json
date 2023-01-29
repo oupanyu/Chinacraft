@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "chinacraft:item/autumn_moon_in_han_palace"
+  }
+}

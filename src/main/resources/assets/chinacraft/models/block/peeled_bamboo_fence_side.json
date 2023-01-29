@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/fence_side",
+  "textures": {
+    "texture": "chinacraft:block/peeled_bamboo_plank"
+  },
+  "render_type": "translucent"
+}

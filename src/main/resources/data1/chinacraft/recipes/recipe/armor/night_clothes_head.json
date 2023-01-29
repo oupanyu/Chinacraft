@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "AAA",
+    "   "
+  ],
+  "key": {
+    "A": {
+      "item": "chinacraft:black_silk"
+    }
+  },
+  "result": {
+    "item": "chinacraft:night_clothes_head",
+    "count": 1
+  }
+}

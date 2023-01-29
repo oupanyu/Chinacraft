@@ -1,0 +1,16 @@
+{
+  "name": "5·20小节",
+  "icon": "minecraft:writable_book",
+  "category": "chinacraft:5",
+  "sortnum": 112,
+  "pages": [
+    {
+      "type": "text",
+      "text": "季文子三思而后行。子闻之，曰：“再，斯可矣。”"
+    },
+    {
+      "type": "text",
+      "text": "季文子每做一件事都要考虑三次。孔子听到了，说：“考虑两次也就行了。”"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "4·9小节",
+  "icon": "minecraft:writable_book",
+  "category": "chinacraft:4",
+  "sortnum": 75,
+  "pages": [
+    {
+      "type": "text",
+      "text": "子曰：“士志于道，而耻恶衣恶食者，未足与议也。”"
+    },
+    {
+      "type": "text",
+      "text": "孔子说：“士有志于（学习和实行圣人的）道理，但又以自己吃穿得不好为耻辱，这种人，是不值得与他谈论道的。”"
+    }
+  ]
+}

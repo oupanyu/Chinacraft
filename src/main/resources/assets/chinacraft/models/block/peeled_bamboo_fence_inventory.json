@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/fence_inventory",
+  "textures": {
+    "texture": "chinacraft:block/peeled_bamboo_plank"
+  },
+  "render_type": "translucent"
+}

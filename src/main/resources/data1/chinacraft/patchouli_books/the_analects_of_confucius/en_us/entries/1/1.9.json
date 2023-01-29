@@ -1,0 +1,16 @@
+{
+  "name": "1·9小节",
+  "icon": "minecraft:writable_book",
+  "category": "chinacraft:1",
+  "sortnum": 9,
+  "pages": [
+    {
+      "type": "text",
+      "text": "曾子曰：“慎终追远，民德归厚矣。”"
+    },
+    {
+      "type": "text",
+      "text": "曾子说：“谨慎地对待父母的去世，追念久远的祖先，自然会导致老百姓日趋忠厚老实了。”"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "5·1小节",
+  "icon": "minecraft:writable_book",
+  "category": "chinacraft:5",
+  "sortnum": 93,
+  "pages": [
+    {
+      "type": "text",
+      "text": "子谓公冶长，“可妻也。虽在缧绁之中，非其罪也。”以其子妻之。”"
+    },
+    {
+      "type": "text",
+      "text": "孔子评论公冶长说：“可以把女儿嫁给他，他虽然被关在牢狱里，但这并不是他的罪过呀。”于是，孔子就把自己的女儿嫁给了他。"
+    }
+  ]
+}

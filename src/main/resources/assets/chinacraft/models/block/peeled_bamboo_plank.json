@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "chinacraft:block/peeled_bamboo_plank"
+  },
+  "render_type": "translucent"
+}

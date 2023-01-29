@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "chinacraft:stone_hammer",
+    "chinacraft:iron_hammer",
+    "chinacraft:bronze_hammer",
+    "chinacraft:diamond_hammer"
+  ]
+}

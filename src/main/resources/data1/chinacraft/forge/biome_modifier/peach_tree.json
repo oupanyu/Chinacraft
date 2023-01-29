@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "minecraft:meadow"
+  ],
+  "features": "chinacraft:peach_tree_placed",
+  "step": "vegetal_decoration"
+}

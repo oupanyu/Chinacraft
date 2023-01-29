@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "chinacraft:block/slab_marble"
+    },
+    "type=double": {
+      "model": "chinacraft:block/marble"
+    },
+    "type=top": {
+      "model": "chinacraft:block/slab_marble_top"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "4·10小节",
+  "icon": "minecraft:writable_book",
+  "category": "chinacraft:4",
+  "sortnum": 76,
+  "pages": [
+    {
+      "type": "text",
+      "text": "子曰：“君子之于天下也，无适也，无莫也，义之与比③。”"
+    },
+    {
+      "type": "text",
+      "text": "孔子说：“君子对于天下的人和事，没有固定的厚薄亲疏，只是按照义去做。”"
+    }
+  ]
+}

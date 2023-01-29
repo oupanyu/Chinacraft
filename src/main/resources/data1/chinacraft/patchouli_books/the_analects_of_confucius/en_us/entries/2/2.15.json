@@ -1,0 +1,16 @@
+{
+  "name": "2·15小节",
+  "icon": "minecraft:writable_book",
+  "category": "chinacraft:2",
+  "sortnum": 31,
+  "pages": [
+    {
+      "type": "text",
+      "text": "子曰：“学而不思则罔，思而不学则殆。”"
+    },
+    {
+      "type": "text",
+      "text": "孔子说：“只读书学习而不思考问题，就会罔然无知而没有收获；只空想而不读书学习，就会疑惑而不能肯定。”"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "chinacraft:block/sericulture_frame_block"
+    },
+    "facing=south": {
+      "model": "chinacraft:block/sericulture_frame_block",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "chinacraft:block/sericulture_frame_block",
+      "y": 270
+    },
+    "facing=east": {
+      "model": "chinacraft:block/sericulture_frame_block",
+      "y": 90
+    }
+  }
+}

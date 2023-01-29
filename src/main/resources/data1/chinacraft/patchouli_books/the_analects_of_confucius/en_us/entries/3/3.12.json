@@ -1,0 +1,16 @@
+{
+  "name": "3·12小节",
+  "icon": "minecraft:writable_book",
+  "category": "chinacraft:3",
+  "sortnum": 52,
+  "pages": [
+    {
+      "type": "text",
+      "text": "祭如在，祭神如神在。子曰：“吾不与祭，如不祭。”"
+    },
+    {
+      "type": "text",
+      "text": "祭祀祖先就像祖先真在面前，祭神就像神真在面前。孔子说：“我如果不亲自参加祭祀，那就和没有举行祭祀一样。”"
+    }
+  ]
+}

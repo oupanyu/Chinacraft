@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "chinacraft:peach_log"
+    }
+  ],
+  "result": {
+    "item": "chinacraft:peach_planks",
+    "count": 4
+  }
+}

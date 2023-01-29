@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/tinted_cross",
+  "textures": {
+    "cross": "chinacraft:block/lightning_bamboo_sapling"
+  },
+  "render_type": "cutout"
+}

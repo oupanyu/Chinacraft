@@ -1,0 +1,16 @@
+{
+  "name": "5·17小节",
+  "icon": "minecraft:writable_book",
+  "category": "chinacraft:5",
+  "sortnum": 109,
+  "pages": [
+    {
+      "type": "text",
+      "text": "子曰：“晏平仲善与人交，久而敬之。”"
+    },
+    {
+      "type": "text",
+      "text": "孔子说：“晏平仲善于与人交朋友，相识久了，别人仍然尊敬他。”"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "4·11小节",
+  "icon": "minecraft:writable_book",
+  "category": "chinacraft:4",
+  "sortnum": 77,
+  "pages": [
+    {
+      "type": "text",
+      "text": "子曰：“君子怀德，小人怀土；君子怀刑，小人怀惠。”"
+    },
+    {
+      "type": "text",
+      "text": "孔子说：“君子思念的是道德，小人思念的是乡土；君子畏法，小人贪利。”"
+    }
+  ]
+}
