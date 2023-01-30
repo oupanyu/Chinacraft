@@ -1,18 +1,38 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "A##",
-    "###",
-    "###"
-  ],
-  "key": {
-    "#": {
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    [
+      {
+        "item": "minecraft:water_bucket"
+      },
+      {
+        "item": "chinacraft:wood_water_bucket"
+      }
+    ],
+    {
       "item": "minecraft:brick"
     },
-    "A": {
-      "item": "minecraft:water_bucket"
-    }
-  },
+    {
+      "item": "minecraft:brick"
+    },
+    {
+      "item": "minecraft:brick"
+    },
+    {
+      "item": "minecraft:brick"
+    },
+    {
+      "item": "minecraft:brick"
+    },
+    {
+      "item": "minecraft:brick"
+    },
+    {
+      "item": "minecraft:brick"
+    },
+    {
+      "item": "minecraft:brick"
+    }],
   "result": {
     "item": "chinacraft:black_brick",
     "count": 8

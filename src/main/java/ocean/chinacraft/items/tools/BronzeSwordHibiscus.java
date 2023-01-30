@@ -12,15 +12,15 @@ import ocean.chinacraft.Chinacraft;
 import ocean.chinacraft.items.tools.material.ModItemMaterial;
 import org.jetbrains.annotations.NotNull;
 
-public class BronzeSwordPurple extends SwordItem {
-    public BronzeSwordPurple() {
+public class BronzeSwordHibiscus extends SwordItem {
+    public BronzeSwordHibiscus() {
         super(ModItemMaterial.BRONZE_SWORD_JADE, 3, -2.4f, new FabricItemSettings().group(Chinacraft.ITEM_GROUP));
     }
     @Override
     public void inventoryTick(@NotNull ItemStack itemStack, World world, Entity entity, int slot, boolean selected) {
         if (entity instanceof PlayerEntity player) {
             if (!player.getMainHandStack().isEmpty() && player.getMainHandStack() == itemStack) {
-                player.addStatusEffect(new StatusEffectInstance(StatusEffects.INSTANT_DAMAGE, 0, 1, false, false));
+                player.addStatusEffect(new StatusEffectInstance(StatusEffects.FIRE_RESISTANCE, 0, 1, false, false));
             }
         }
     }

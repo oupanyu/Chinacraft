@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "AAA",
+    " C "
+  ],
+  "key": {
+    "A": {
+      "tag": "c:bronze_ingots"
+    },
+    "B": {
+      "tag": "c:tin_ingots"
+    },
+    "C": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "chinacraft:jiu_qu_tang",
+    "count": 1
+  }
+}

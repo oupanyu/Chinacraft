@@ -1,8 +1,9 @@
-package ocean.chinacraft.items.tools.material;
+package ocean.chinacraft.items.tools;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.item.PickaxeItem;
 import net.minecraft.item.ToolMaterial;
+import ocean.chinacraft.items.tools.material.ModItemMaterial;
 
 import static ocean.chinacraft.Chinacraft.ITEM_GROUP;
 

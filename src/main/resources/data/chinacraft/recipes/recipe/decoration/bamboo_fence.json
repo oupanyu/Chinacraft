@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "AAA",
+    "   "
+  ],
+  "key": {
+    "A": {
+      "item": "chinacraft:bamboo_plank"
+    }
+  },
+  "result": {
+    "item": "chinacraft:bamboo_fence",
+    "count": 2
+  }
+}

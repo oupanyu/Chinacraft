@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "A#A",
+    " # "
+  ],
+  "key": {
+    "A": {
+      "tag": "c:bronze_ingots"
+    },
+    "#": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "chinacraft:bronze_hammer",
+    "count": 1
+  }
+}

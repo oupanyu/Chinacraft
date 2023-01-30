@@ -7,6 +7,6 @@ import ocean.chinacraft.ItemRegister;
 
 public class ClientBlocks {
     public static void init(){
-        BlockRenderLayerMap.INSTANCE.putBlocks(RenderLayer.getCutout(), BlockRegister.RICES_EAR);
+        BlockRenderLayerMap.INSTANCE.putBlocks(RenderLayer.getCutout(), BlockRegister.RICES_EAR_SEEDS);
     }
 }

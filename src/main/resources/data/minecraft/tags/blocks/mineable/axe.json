@@ -1,6 +1,17 @@
 {
   "replace": false,
   "values": [
-    "chinacraft:rices_ear"
+    "chinacraft:rices_ear_seeds",
+    "chinacraft:stair_bamboo",
+    "chinacraft:slab_bamboo",
+    "chinacraft:bamboo_fence",
+    "chinacraft:peeled_bamboo_plank",
+    "chinacraft:stair_peeled_bamboo",
+    "chinacraft:slab_peeled_bamboo",
+    "chinacraft:peeled_bamboo_fence",
+    "chinacraft:peeled_bamboo_fence_gate",
+
+
+    "chinacraft:bamboo_plank"
   ]
 }

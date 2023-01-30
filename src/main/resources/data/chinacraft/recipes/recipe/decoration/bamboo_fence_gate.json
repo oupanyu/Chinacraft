@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BAB",
+    "BAB",
+    "   "
+  ],
+  "key": {
+    "A": {
+      "item": "chinacraft:bamboo_plank"
+    },
+    "B": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "chinacraft:bamboo_fence_gate",
+    "count": 1
+  }
+}

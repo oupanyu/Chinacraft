@@ -4,6 +4,7 @@
   "package": "ocean.chinacraft.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
+    "entity.MobEntityMixin"
   ],
   "client": [
   ],

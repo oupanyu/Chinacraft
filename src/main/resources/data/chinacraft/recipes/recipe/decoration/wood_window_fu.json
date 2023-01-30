@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "BAC",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "tag": "minecraft:planks"
+    },
+    "A": {
+      "item": "chinacraft:art_cutting_knife"
+    },
+    "B": {
+      "item": "chinacraft:wood_window2"
+    },
+    "C": {
+      "item": "chinacraft:wood_window2"
+    }
+  },
+  "result": {
+    "item": "chinacraft:wood_window_fu",
+    "count": 4
+  }
+}

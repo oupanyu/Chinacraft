@@ -51,7 +51,7 @@ public class BlockRegister {
     public static final Block TIN_BLOCK = registerNormalBlock("tin_block",Material.METAL,2.2f,Chinacraft.ITEM_GROUP);
     public static final Block SILVER_BLOCK = registerNormalBlock("silver_block",Material.METAL,2.2f,Chinacraft.ITEM_GROUP);//矿物块
 
-    public static final Block RICES_EAR = register("rices_ear",new CropBlock(FabricBlockSettings.copy(Blocks.WHEAT).nonOpaque()));//米穗
+    public static final Block RICES_EAR_SEEDS = register("rices_ear_seeds",new CropBlock(FabricBlockSettings.copy(Blocks.WHEAT).nonOpaque()));//米穗
     //public static final Block
 
 
@@ -75,5 +75,5 @@ public class BlockRegister {
         return block;
     }
 
-
+    //TODO:石灯笼、木窗、竹窗、元宵灯笼
 }
