@@ -1,5 +1,12 @@
 package ocean.chinacraft.util;
 
+import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.item.ArmorItem;
+import net.minecraft.item.ArmorMaterial;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.Items;
+
+import java.util.List;
 import java.util.Random;
 
 public class ModUtil {
@@ -24,5 +31,31 @@ public class ModUtil {
      */
     public static Integer random(int max, int min) {
         return new Random().nextInt(max - min + 1) + min;
+    }
+
+    public static boolean isNotNull(ItemStack... items) {
+        for (ItemStack item : items) {
+            if (item == null || item.getItem() == Items.AIR || item.isEmpty()) {
+                return false;
+            }
+        }
+        return true;
+    }
+
+    public static boolean hasCorrectArmorOn(ArmorMaterial material, PlayerEntity player) {
+        List<ItemStack> armorList = player.getInventory().armor;
+        ItemStack boot = armorList.get(8);
+        ItemStack leggings = armorList.get(7);
+        ItemStack chest = armorList.get(6);
+        ItemStack helmet = armorList.get(5);
+        if (ModUtil.isNotNull(boot, leggings, chest, helmet)) {
+            ArmorItem b = (ArmorItem) boot.getItem();
+            ArmorItem l = (ArmorItem) leggings.getItem();
+            ArmorItem c = (ArmorItem) chest.getItem();
+            ArmorItem h = (ArmorItem) helmet.getItem();
+            return h.getMaterial() == material && c.getMaterial() == material &&
+                    l.getMaterial() == material && b.getMaterial() == material;
+        }
+        return false;
     }
 }

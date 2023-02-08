@@ -5,13 +5,17 @@ import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 import net.minecraft.block.CropBlock;
+import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.fluid.Fluids;
+import net.minecraft.item.ArmorItem;
+import net.minecraft.item.ArmorMaterial;
 import net.minecraft.item.Item;
 import net.minecraft.item.SwordItem;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import ocean.chinacraft.items.CCNormalItem;
 import ocean.chinacraft.items.ModHammer;
+import ocean.chinacraft.items.armor.ArmorMarteial;
 import ocean.chinacraft.items.bucket.WoodBucket;
 import ocean.chinacraft.items.food.Corn;
 import ocean.chinacraft.items.food.Cucumber;
@@ -51,11 +55,11 @@ public class ItemRegister {
     public static final Item TIN_POWDER = registerNormalItem("tin_powder");//锡粉
     public static final Item COPPER_POWDER = registerNormalItem("copper_powder");//铜粉
     public static final Item BRONZE_POWDER = registerNormalItem("bronze_powder");//青铜粉
-    private static final Item TIN_INGOT = registerNormalItem("tin_ingot");//锡锭
-    private static final Item SILVER_INGOT = registerNormalItem("silver_ingot");//银锭
-    private static final Item BRONZE_INGOT = registerNormalItem("bronze_ingot");//青铜锭
-    private static final Item BLACK_BRICK = registerNormalItem("black_brick");//青砖
-    private static final Item CLAY_SAND_MIXTURE = registerNormalItem("clay_sand_mixture");//黏土沙混合物
+    public static final Item TIN_INGOT = registerNormalItem("tin_ingot");//锡锭
+    public static final Item SILVER_INGOT = registerNormalItem("silver_ingot");//银锭
+    public static final Item BRONZE_INGOT = registerNormalItem("bronze_ingot");//青铜锭
+    public static final Item BLACK_BRICK = registerNormalItem("black_brick");//青砖
+    public static final Item CLAY_SAND_MIXTURE = registerNormalItem("clay_sand_mixture");//黏土沙混合物
 
     private static final Item FIRE_BRICK = registerNormalItem("fire_brick");//耐火砖
     private static final Item PEELED_BAMBOO =registerNormalItem("peeled_bamboo");//杀青竹子
@@ -111,8 +115,16 @@ public class ItemRegister {
     //混沌符
     public static final Item CHAOTIC_SPELL = register("chaotic_spell",new ChaoticSpell());
 
+    public static final Item BLACK_SILK = registerNormalItem("black_silk");
 
+    //青铜套装
+    public static final Item BRONZE_HELMET = register("bronze_head",new ArmorItem(ArmorMarteial.BRONZE_ARMOR, EquipmentSlot.HEAD,new FabricItemSettings()));
+    public static final Item BRONZE_CHEST = register("bronze_chest",new ArmorItem(ArmorMarteial.BRONZE_ARMOR, EquipmentSlot.CHEST,new FabricItemSettings()));
+    public static final Item BRONZE_LEGGINGS = register("bronze_leggings" ,new ArmorItem(ArmorMarteial.BRONZE_ARMOR, EquipmentSlot.LEGS,new FabricItemSettings()));
+    public static final Item BRONZE_BOOTS = register("bronze_feet",new ArmorItem(ArmorMarteial.BRONZE_ARMOR, EquipmentSlot.FEET,new FabricItemSettings()));
 
+    public static final Item MUlBERRY_LEAF = registerNormalItem("mulberry_leaf");
+    public static final Item SILKWORM_EGG = registerNormalItem("silkworm_egg");
 
     public static void register(){
         Chinacraft.LOGGER.info("Registering Items...");

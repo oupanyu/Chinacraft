@@ -7,6 +7,8 @@ import net.minecraft.item.BlockItem;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
+import ocean.chinacraft.blocks.world.sapling.ModSaplingBlock;
+import ocean.chinacraft.blocks.world.tree.MulberrySaplingGenerator;
 
 public class BlockRegister {
 
@@ -50,6 +52,13 @@ public class BlockRegister {
     public static final Block BRONZE_BLOCK = registerNormalBlock("bronze_block",Material.METAL,2.2f,Chinacraft.ITEM_GROUP);
     public static final Block TIN_BLOCK = registerNormalBlock("tin_block",Material.METAL,2.2f,Chinacraft.ITEM_GROUP);
     public static final Block SILVER_BLOCK = registerNormalBlock("silver_block",Material.METAL,2.2f,Chinacraft.ITEM_GROUP);//矿物块
+
+    public static final Block MULBERRY_LOG = register("mulberry_log",new PillarBlock(FabricBlockSettings.copy(Blocks.OAK_LOG)));
+    public static final Block MULBERRY_PLANKS = register("mulberry_planks",new Block(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
+    public static final Block MULBERRY_LEAVES = register("mulberry_leaves",new Block(FabricBlockSettings.copy(Blocks.OAK_LEAVES)));
+    public static final Block MULBERRY_SAPLING = register("mulberry_sapling",new ModSaplingBlock(new MulberrySaplingGenerator(),FabricBlockSettings.copy(Blocks.OAK_SAPLING)));
+
+
 
     public static final Block RICES_EAR_SEEDS = register("rices_ear_seeds",new CropBlock(FabricBlockSettings.copy(Blocks.WHEAT).nonOpaque()));//米穗
     //public static final Block
