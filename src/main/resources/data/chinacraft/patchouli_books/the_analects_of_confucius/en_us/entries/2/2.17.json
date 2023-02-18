@@ -1,0 +1,16 @@
+{
+  "name": "2·17小节",
+  "icon": "minecraft:writable_book",
+  "category": "chinacraft:2",
+  "sortnum": 33,
+  "pages": [
+    {
+      "type": "text",
+      "text": "子曰：“由，诲女，知之乎？知之为知之，不知为不知，是知也。”"
+    },
+    {
+      "type": "text",
+      "text": "孔子说：“由，我教给你怎样做的话，你明白了吗？知道的就是知道，不知道就是不知道，这就是智慧啊！”"
+    }
+  ]
+}

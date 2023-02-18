@@ -1,0 +1,16 @@
+{
+  "name": "3·20小节",
+  "icon": "minecraft:writable_book",
+  "category": "chinacraft:3",
+  "sortnum": 60,
+  "pages": [
+    {
+      "type": "text",
+      "text": "子曰：“《关雎》，乐而不淫，哀而不伤。”"
+    },
+    {
+      "type": "text",
+      "text": "孔子说：“《关雎》这篇诗，快乐而不放荡，忧愁而不哀伤。”"
+    }
+  ]
+}

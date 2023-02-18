@@ -1,0 +1,16 @@
+{
+  "name": "4·16小节",
+  "icon": "minecraft:writable_book",
+  "category": "chinacraft:4",
+  "sortnum": 82,
+  "pages": [
+    {
+      "type": "text",
+      "text": "子曰：“君子喻于义，小人喻于利。”"
+    },
+    {
+      "type": "text",
+      "text": "孔子说：“君子明白大义，小人只知道小利。”"
+    }
+  ]
+}

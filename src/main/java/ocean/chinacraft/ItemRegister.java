@@ -37,11 +37,11 @@ public class ItemRegister {
 
     public static final Item JADE_ITEM = register("jade",new JadeItem());
 
-    private static final Item JASPER_ITEM = register("jasper",new JasperItem());
+    public static final Item JASPER_ITEM = register("jasper",new JasperItem());
 
-    private static final Item HIBISCUS_JADE_ITEM = register("hibiscus_jade",new HibiscusJadeItem());
+    public static final Item HIBISCUS_JADE_ITEM = register("hibiscus_jade",new HibiscusJadeItem());
 
-    private static final Item PURPLE_JADE_ITEM = register("purple_jade",new PurpleJadeItem());
+    public static final Item PURPLE_JADE_ITEM = register("purple_jade",new PurpleJadeItem());
 
     private static final Item CORN = register("corn",new Corn());
     private static final Item CUCUMBER = register("cucumber",new Cucumber());
@@ -93,6 +93,13 @@ public class ItemRegister {
     //青铜大刀 - 芙蓉玉
     public static final Item BRONZE_SWORD_HIBISCUS = register("bronze_sword_hibiscus",new BronzeSwordHibiscus());
     //青铜镐、斧、铲子、锄头
+
+    public static final Item ZEN_STICK = register("zen_stick",new ZenStick(new FabricItemSettings().maxCount(1).group(ITEM_GROUP)));
+
+    public static final Item ART_CUTTING_KNIFE = registerNormalItem("art_cutting_knife");
+    public static final Item JADE_CUTTING_KNIFE = registerNormalItem("jade_cutting_knife");//切割刀
+
+
     public static final Item BRONZE_PICKAXE = register("bronze_pickaxe",new BronzePickaxe());
     public static final Item BRONZE_AXE = register("bronze_axe",new BronzeAxe());
     public static final Item BRONZE_SHOVEL = register("bronze_shovel",new BronzeAxe());
@@ -116,6 +123,7 @@ public class ItemRegister {
     public static final Item CHAOTIC_SPELL = register("chaotic_spell",new ChaoticSpell());
 
     public static final Item BLACK_SILK = registerNormalItem("black_silk");
+
 
     //青铜套装
     public static final Item BRONZE_HELMET = register("bronze_head",new ArmorItem(ArmorMarteial.BRONZE_ARMOR, EquipmentSlot.HEAD,new FabricItemSettings()));

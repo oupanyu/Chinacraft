@@ -1,0 +1,9 @@
+{
+  "type" : "chinacraft:mortar",
+  "ingredients" : {
+    "item": "chinacraft:tin_ingot"
+    },
+  "output" : {
+    "item": "chinacraft:tin_powder"
+  }
+}

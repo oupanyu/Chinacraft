@@ -1,0 +1,16 @@
+{
+  "name": "5·27小节",
+  "icon": "minecraft:writable_book",
+  "category": "chinacraft:5",
+  "sortnum": 119,
+  "pages": [
+    {
+      "type": "text",
+      "text": "子曰：“已矣乎！吾未见能见其过而内自讼者也。”"
+    },
+    {
+      "type": "text",
+      "text": "孔子说：“完了，我还没有看见过能够看到自己的错误而又能从内心责备自己的人。”"
+    }
+  ]
+}

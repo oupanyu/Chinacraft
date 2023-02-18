@@ -42,6 +42,20 @@ public class ModUtil {
         return true;
     }
 
+    /**
+     * Object数组转int数组
+     *
+     * @param target 目标字符
+     * @return 结果
+     */
+    public static Integer[] getIntArray(Object[] target) {
+        Integer[] ret = new Integer[target.length];
+        for (int i = 0; i < target.length; i++) {
+            ret[i] = Integer.parseInt(String.valueOf(target[i]));
+        }
+        return ret;
+    }
+
     public static boolean hasCorrectArmorOn(ArmorMaterial material, PlayerEntity player) {
         List<ItemStack> armorList = player.getInventory().armor;
         ItemStack boot = armorList.get(8);

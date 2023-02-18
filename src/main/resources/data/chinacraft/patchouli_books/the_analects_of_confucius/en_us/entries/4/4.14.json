@@ -1,0 +1,16 @@
+{
+  "name": "4·14小节",
+  "icon": "minecraft:writable_book",
+  "category": "chinacraft:4",
+  "sortnum": 80,
+  "pages": [
+    {
+      "type": "text",
+      "text": "子曰：“不患无位，患所以立；不患莫己知，求为可知也。”"
+    },
+    {
+      "type": "text",
+      "text": "孔子说：“不怕没有官位，就怕自己没有学到赖以站得住脚的东西。不怕没有人知道自己，只求自己成为有真才实学值得为人们知道的人。”"
+    }
+  ]
+}

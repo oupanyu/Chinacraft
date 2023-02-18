@@ -1,0 +1,16 @@
+{
+  "name": "2·11小节",
+  "icon": "minecraft:writable_book",
+  "category": "chinacraft:2",
+  "sortnum": 27,
+  "pages": [
+    {
+      "type": "text",
+      "text": "子曰：“温故而知新，可以为师矣。”"
+    },
+    {
+      "type": "text",
+      "text": "孔子说：“在温习旧知识时，能有新体会、新发现，凭此就可以当老师了。”"
+    }
+  ]
+}

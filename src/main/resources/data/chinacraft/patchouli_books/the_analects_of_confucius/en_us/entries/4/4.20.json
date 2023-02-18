@@ -1,0 +1,16 @@
+{
+  "name": "4·20小节",
+  "icon": "minecraft:writable_book",
+  "category": "chinacraft:4",
+  "sortnum": 86,
+  "pages": [
+    {
+      "type": "text",
+      "text": "子曰：“三年无改于父之道，可谓孝矣。”"
+    },
+    {
+      "type": "text",
+      "text": "孔子说：“若是一个人对他父亲的合理部分长期不加改变，这样的人可以说是尽到孝了。”"
+    }
+  ]
+}

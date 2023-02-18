@@ -1,0 +1,16 @@
+{
+  "name": "5·28小节",
+  "icon": "minecraft:writable_book",
+  "category": "chinacraft:5",
+  "sortnum": 120,
+  "pages": [
+    {
+      "type": "text",
+      "text": "子曰：“十室之邑，必有忠信如丘者焉，不如丘之好学也。”"
+    },
+    {
+      "type": "text",
+      "text": "孔子说：“即使只有十户人家的小村子，也一定有像我这样讲忠信的人，只是不如我那样好学罢了。”"
+    }
+  ]
+}

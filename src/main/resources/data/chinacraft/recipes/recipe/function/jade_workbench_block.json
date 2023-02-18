@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#A#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stone"
+    },
+    "A": {
+      "item": "minecraft:crafting_table"
+    }
+  },
+  "result": {
+    "item": "chinacraft:jade_workbench_block",
+    "count": 1
+  }
+}

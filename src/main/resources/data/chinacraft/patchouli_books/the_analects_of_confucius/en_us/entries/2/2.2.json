@@ -1,0 +1,16 @@
+{
+  "name": "2·2小节",
+  "icon": "minecraft:writable_book",
+  "category": "chinacraft:2",
+  "sortnum": 18,
+  "pages": [
+    {
+      "type": "text",
+      "text": "子曰：“诗三百，一言以蔽之，曰‘思无邪’。”"
+    },
+    {
+      "type": "text",
+      "text": "孔子说：“《诗经》三百篇的微言大义，可以用一句话来概括，就是‘思想纯正’。”"
+    }
+  ]
+}

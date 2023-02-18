@@ -1,0 +1,16 @@
+{
+  "name": "4·1小节",
+  "icon": "minecraft:writable_book",
+  "category": "chinacraft:4",
+  "sortnum": 67,
+  "pages": [
+    {
+      "type": "text",
+      "text": "子曰：“里仁为美，择不处仁，焉得知？”"
+    },
+    {
+      "type": "text",
+      "text": "孔子说：“跟有仁德的人住在一起，才是好的。如果你选择的住处不是跟有仁德的人在一起，怎么能说你是明智的呢？”"
+    }
+  ]
+}

@@ -41,6 +41,7 @@ public class Chinacraft implements ModInitializer {
         RecipeRegister.registry();
         ModFlammableBlockRegistry.register();
         ModWorldGen.register();
+        ModBlockEntities.register();
 
         AutoConfig.register(ModConfig.class, Toml4jConfigSerializer::new);
         config = AutoConfig.getConfigHolder(ModConfig.class).getConfig();

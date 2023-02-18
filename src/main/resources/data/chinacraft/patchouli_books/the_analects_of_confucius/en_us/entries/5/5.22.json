@@ -1,0 +1,16 @@
+{
+  "name": "5·22小节",
+  "icon": "minecraft:writable_book",
+  "category": "chinacraft:5",
+  "sortnum": 114,
+  "pages": [
+    {
+      "type": "text",
+      "text": "子在陈曰：“归与！归与！吾党之小子狂简，斐然成章，不知所以裁之。”"
+    },
+    {
+      "type": "text",
+      "text": "孔子在陈国说：“回去吧！回去吧！家乡的学生有远大志向，但行为粗率简单；有文彩但还不知道怎样来节制自己。”"
+    }
+  ]
+}

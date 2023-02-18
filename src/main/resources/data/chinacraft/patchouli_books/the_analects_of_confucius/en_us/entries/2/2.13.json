@@ -1,0 +1,16 @@
+{
+  "name": "2·13小节",
+  "icon": "minecraft:writable_book",
+  "category": "chinacraft:2",
+  "sortnum": 29,
+  "pages": [
+    {
+      "type": "text",
+      "text": "子贡问君子。子曰：“先行其言，而后从之。”"
+    },
+    {
+      "type": "text",
+      "text": "子贡问如何才是一君子,孔子说：“君子做事在说话前,然后才照他做的说。”"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "4·26小节",
+  "icon": "minecraft:writable_book",
+  "category": "chinacraft:4",
+  "sortnum": 92,
+  "pages": [
+    {
+      "type": "text",
+      "text": "子游曰：“事君数，斯辱矣；朋友数，斯疏矣。”"
+    },
+    {
+      "type": "text",
+      "text": "子游说：“侍奉君主太过烦琐，就会受到侮辱；对待朋友太烦琐，就会被疏远了。”"
+    }
+  ]
+}

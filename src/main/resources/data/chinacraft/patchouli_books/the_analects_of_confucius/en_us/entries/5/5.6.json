@@ -1,0 +1,16 @@
+{
+  "name": "5·6小节",
+  "icon": "minecraft:writable_book",
+  "category": "chinacraft:5",
+  "sortnum": 98,
+  "pages": [
+    {
+      "type": "text",
+      "text": "子使漆雕开仕。对曰：“吾斯之未能信。”子说。"
+    },
+    {
+      "type": "text",
+      "text": "孔子让漆雕开去做官。漆雕开回答说：“我对做官这件事还没有信心。”孔子听了很高兴。"
+    }
+  ]
+}

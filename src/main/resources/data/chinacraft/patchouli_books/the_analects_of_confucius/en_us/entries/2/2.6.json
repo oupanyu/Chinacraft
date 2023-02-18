@@ -1,0 +1,16 @@
+{
+  "name": "2·6小节",
+  "icon": "minecraft:writable_book",
+  "category": "chinacraft:2",
+  "sortnum": 22,
+  "pages": [
+    {
+      "type": "text",
+      "text": "孟武伯问孝，子曰：“父母唯其疾之忧。”"
+    },
+    {
+      "type": "text",
+      "text": "孟武伯向孔子请教孝道，孔子说：“对父母，要特别为他们的疾病担忧。（这样做就可以算是尽孝了。）”"
+    }
+  ]
+}

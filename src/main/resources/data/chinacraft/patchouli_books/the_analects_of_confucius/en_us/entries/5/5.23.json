@@ -1,0 +1,16 @@
+{
+  "name": "5·23小节",
+  "icon": "minecraft:writable_book",
+  "category": "chinacraft:5",
+  "sortnum": 115,
+  "pages": [
+    {
+      "type": "text",
+      "text": "子曰：“伯夷叔齐不念旧恶，怨是用希。”"
+    },
+    {
+      "type": "text",
+      "text": "孔子说：“伯夷、叔齐两个人不记人家过去的仇恨，（因此，别人对他们的）怨恨因此也就少了。”"
+    }
+  ]
+}

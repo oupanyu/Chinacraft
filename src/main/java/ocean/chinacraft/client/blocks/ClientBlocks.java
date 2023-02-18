@@ -10,6 +10,8 @@ public class ClientBlocks {
         BlockRenderLayerMap.INSTANCE.putBlocks(RenderLayer.getCutout(), BlockRegister.RICES_EAR_SEEDS);
         BlockRenderLayerMap.INSTANCE.putBlocks(RenderLayer.getCutout(), BlockRegister.MULBERRY_LEAVES);
         BlockRenderLayerMap.INSTANCE.putBlocks(RenderLayer.getCutout(), BlockRegister.MULBERRY_SAPLING);
-
+        BlockRenderLayerMap.INSTANCE.putBlocks(RenderLayer.getCutout(), BlockRegister.PEELED_BAMBOO_WINDOW);
+        BlockRenderLayerMap.INSTANCE.putBlocks(RenderLayer.getCutout(), BlockRegister.PEELED_BAMBOO_WINDOW_2);
+        BlockRenderLayerMap.INSTANCE.putBlocks(RenderLayer.getCutout(), BlockRegister.PEELED_BAMBOO_WINDOW_3);
     }
 }

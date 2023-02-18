@@ -1,0 +1,16 @@
+{
+  "name": "4·8小节",
+  "icon": "minecraft:writable_book",
+  "category": "chinacraft:4",
+  "sortnum": 74,
+  "pages": [
+    {
+      "type": "text",
+      "text": "子曰：“朝闻道，夕死可矣。”"
+    },
+    {
+      "type": "text",
+      "text": "孔子说：“如果早晨悟知了道，就是当天晚上死去也心甘。”"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "4·17小节",
+  "icon": "minecraft:writable_book",
+  "category": "chinacraft:4",
+  "sortnum": 83,
+  "pages": [
+    {
+      "type": "text",
+      "text": "子曰：“见贤思齐焉，见不贤而内自省也。”"
+    },
+    {
+      "type": "text",
+      "text": "孔子说：“见到贤人，就应该向他学习、看齐，见到不贤的人，就应该自我反省（自己有没有与他相类似的错误）。”"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "4·22小节",
+  "icon": "minecraft:writable_book",
+  "category": "chinacraft:4",
+  "sortnum": 88,
+  "pages": [
+    {
+      "type": "text",
+      "text": "子曰：“古者言之不出，耻躬之不逮也。”"
+    },
+    {
+      "type": "text",
+      "text": "孔子说：“古代人不轻易把话说出口，因为他们以自己做不到为可耻啊。”"
+    }
+  ]
+}

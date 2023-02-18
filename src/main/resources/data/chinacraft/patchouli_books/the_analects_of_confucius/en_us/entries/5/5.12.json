@@ -1,0 +1,16 @@
+{
+  "name": "5·12小节",
+  "icon": "minecraft:writable_book",
+  "category": "chinacraft:5",
+  "sortnum": 104,
+  "pages": [
+    {
+      "type": "text",
+      "text": "子贡曰：“我不欲人之加诸我也，吾亦欲无加诸人。”子曰：“赐也，非尔所及也。”"
+    },
+    {
+      "type": "text",
+      "text": "子贡说：“我不愿别人强加于我的事，我也不愿强加在别人身上。”孔子说：“赐呀，这就不是你所能做到的了。”"
+    }
+  ]
+}

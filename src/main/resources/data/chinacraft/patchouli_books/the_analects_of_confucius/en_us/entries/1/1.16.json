@@ -1,0 +1,16 @@
+{
+  "name": "1·16小节",
+  "icon": "minecraft:writable_book",
+  "category": "chinacraft:1",
+  "sortnum": 16,
+  "pages": [
+    {
+      "type": "text",
+      "text": "子曰：“不患人之不己知，患不知人也。”"
+    },
+    {
+      "type": "text",
+      "text": "孔子说：“不怕别人不了解自己，只怕自己不了解别人。”"
+    }
+  ]
+}

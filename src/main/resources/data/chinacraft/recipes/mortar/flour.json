@@ -1,0 +1,9 @@
+{
+  "type" : "chinacraft:mortar",
+  "ingredients" : {
+    "item": "minecraft:wheat"
+    },
+  "output" : {
+    "item": "chinacraft:flour"
+  }
+}

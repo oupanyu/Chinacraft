@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "ACA",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:red_wool"
+    },
+    "B": {
+      "item": "minecraft:yellow_wool"
+    },
+    "C": {
+      "item": "minecraft:torch"
+    }
+  },
+  "result": {
+    "item": "chinacraft:lantern_festival_lanterns",
+    "count": 1
+  }
+}
