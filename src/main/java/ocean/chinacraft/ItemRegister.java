@@ -61,12 +61,12 @@ public class ItemRegister {
     public static final Item BLACK_BRICK = registerNormalItem("black_brick");//青砖
     public static final Item CLAY_SAND_MIXTURE = registerNormalItem("clay_sand_mixture");//黏土沙混合物
 
-    private static final Item FIRE_BRICK = registerNormalItem("fire_brick");//耐火砖
-    private static final Item PEELED_BAMBOO =registerNormalItem("peeled_bamboo");//杀青竹子
-    private static final Item SALT = registerNormalItem("salt");//盐
-    private static final Item BLACK_DOG_BLOOD = registerNormalItem("black_dog_blood");//黑狗血
-    private static final Item FLOUR = registerNormalItem("flour");//面粉
-    private static final Item RICES_FLOUR = registerNormalItem("rices_flour");//米粉
+    public static final Item FIRE_BRICK = registerNormalItem("fire_brick");//耐火砖
+    public static final Item PEELED_BAMBOO =registerNormalItem("peeled_bamboo");//杀青竹子
+    public static final Item SALT = registerNormalItem("salt");//盐
+    public static final Item BLACK_DOG_BLOOD = registerNormalItem("black_dog_blood");//黑狗血
+    public static final Item FLOUR = registerNormalItem("flour");//面粉
+    public static final Item RICES_FLOUR = registerNormalItem("rices_flour");//米粉
     public static final Item WOOD_BUCKET = register("wood_bucket",new WoodBucket(Fluids.EMPTY,new Item.Settings().maxCount(1).group(ITEM_GROUP)));
     public static final Item WOOD_WATER_BUCKET = register("wood_water_bucket",new WoodBucket(Fluids.WATER,new Item.Settings().maxCount(1).recipeRemainder(WOOD_BUCKET).group(ITEM_GROUP)));
 

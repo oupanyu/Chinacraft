@@ -3,7 +3,7 @@
   "id": "chinacraft",
   "version": "${version}",
   "name": "Chinacraft",
-  "description": "",
+  "description": "Chinacraft for Fabric",
   "authors": [],
   "contact": {},
   "license": "unlicense",
@@ -18,6 +18,12 @@
     ],
     "modmenu": [
       "ocean.chinacraft.client.modmenu.ModMenuIntegration"
+    ],
+    "rei_client": [
+      "ocean.chinacraft.rei.REIClientPlugins"
+    ],
+    "rei_server": [
+      "ocean.chinacraft.rei.REIServerPlugins"
     ]
   },
   "mixins": [
@@ -27,6 +33,7 @@
     "fabricloader": ">=0.14.12",
     "fabric": "*",
     "minecraft": "1.18.2",
-    "cloth-config": "*"
+    "cloth-config": "*",
+    "patchouli": "*"
   }
 }

@@ -28,6 +28,11 @@ public class MortarRecipe implements Recipe<SimpleInventory> {
     }
 
     @Override
+    public DefaultedList<Ingredient> getIngredients() {
+        return recipeItems;
+    }
+
+    @Override
     public ItemStack craft(SimpleInventory inventory) {
         return output;
     }
