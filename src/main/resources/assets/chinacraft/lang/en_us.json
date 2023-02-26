@@ -1,4 +1,7 @@
 {
+  "text.autoconfig.chinacraft.title": "Chinacraft configuration",
+  "category.chinacraft.recipe.mortar" : "Stone mortar",
+
   "block.chinacraft.copper_ore": "Copper Ore",
   "block.chinacraft.tin_ore": "Tin Ore",
   "block.chinacraft.silver_ore": "Silver Ore",
@@ -25,10 +28,10 @@
   "block.chinacraft.peach_sapling": "Peach Sapling",
   "block.chinacraft.peach_log": "Peach Log",
   "block.chinacraft.peach_planks": "Peach Planks",
-  "block.chinacraft.sakura_leaves": "Sakura Leaf",
-  "block.chinacraft.sakura_sapling": "Sakura Sapling",
-  "block.chinacraft.sakura_log": "Sakura Log",
-  "block.chinacraft.sakura_planks": "Sakura Planks",
+  "block.chinacraft.cherry_leaves": "Cherry Leaf",
+  "block.chinacraft.cherry_sapling": "Cherry Sapling",
+  "block.chinacraft.cherry_log": "Cherry Log",
+  "block.chinacraft.cherry_planks": "Cherry Planks",
   "block.chinacraft.azalea": "Azalea",
   "block.chinacraft.peony": "Peony",
   "block.chinacraft.chrysanthemum": "Chrysanthemum",

@@ -1,7 +1,0 @@
-{
-  "parent": "block/cube_column",
-  "textures": {
-    "end": "chinacraft:block/sakura_log_top",
-    "side": "chinacraft:block/sakura_log"
-  }
-}

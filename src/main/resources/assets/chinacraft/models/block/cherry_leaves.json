@@ -1,7 +1,7 @@
 {
   "parent": "block/leaves",
   "textures": {
-    "all": "chinacraft:block/sakura_leaves"
+    "all": "chinacraft:block/cherry_leaves"
   },
   "render_type": "cutout"
 }

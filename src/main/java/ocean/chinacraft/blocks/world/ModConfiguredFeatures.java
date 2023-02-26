@@ -31,7 +31,22 @@ public class ModConfiguredFeatures {
                     MULBERRY_CHECKED)
             );
 
+    public static final RegistryEntry<ConfiguredFeature<TreeFeatureConfig, ?>> CHERRY_TREE =
+            ConfiguredFeatures.register("cherry_tree", Feature.TREE, new TreeFeatureConfig.Builder(
+                    BlockStateProvider.of(BlockRegister.CHERRY_LOG),
+                    new StraightTrunkPlacer(3,4,3),
+                    BlockStateProvider.of(BlockRegister.CHERRY_LEAVES),
+                    new BlobFoliagePlacer(ConstantIntProvider.create(2),ConstantIntProvider.create(0),4),
+                    new TwoLayersFeatureSize(1,0,2)
+            ).build());
+    public static final RegistryEntry<PlacedFeature> CHERRY_CHECKED = PlacedFeatures.register("cherry_checked",CHERRY_TREE,
+            PlacedFeatures.wouldSurvive(BlockRegister.CHERRY_SAPLING));
 
+    public static final RegistryEntry<ConfiguredFeature<RandomFeatureConfig, ?>> CHERRY_SPAWN = ConfiguredFeatures.register("cherry_spawn",
+            Feature.RANDOM_SELECTOR,
+            new RandomFeatureConfig(List.of(new RandomFeatureEntry(CHERRY_CHECKED, 0.5F)),
+                    CHERRY_CHECKED)
+    );
 
 
     public static void registry(){

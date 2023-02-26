@@ -13,5 +13,6 @@ public class ClientBlocks {
         BlockRenderLayerMap.INSTANCE.putBlocks(RenderLayer.getCutout(), BlockRegister.PEELED_BAMBOO_WINDOW);
         BlockRenderLayerMap.INSTANCE.putBlocks(RenderLayer.getCutout(), BlockRegister.PEELED_BAMBOO_WINDOW_2);
         BlockRenderLayerMap.INSTANCE.putBlocks(RenderLayer.getCutout(), BlockRegister.PEELED_BAMBOO_WINDOW_3);
+        BlockRenderLayerMap.INSTANCE.putBlocks(RenderLayer.getCutout(), BlockRegister.CHERRY_SAPLING);
     }
 }

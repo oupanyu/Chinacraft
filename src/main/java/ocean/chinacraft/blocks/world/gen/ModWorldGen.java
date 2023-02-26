@@ -13,5 +13,8 @@ public class ModWorldGen {
     private static void genTrees(){
         BiomeModifications.addFeature(BiomeSelectors.categories(Biome.Category.PLAINS),
                 GenerationStep.Feature.VEGETAL_DECORATION, ModPlacedFeatures.MULBERRY_PLACED.getKey().get());
+
+        BiomeModifications.addFeature(BiomeSelectors.categories(Biome.Category.PLAINS,Biome.Category.FOREST),
+                GenerationStep.Feature.VEGETAL_DECORATION, ModPlacedFeatures.CHERRY_PLACED.getKey().get());
     }
 }

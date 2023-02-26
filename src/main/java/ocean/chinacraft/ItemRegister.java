@@ -1,14 +1,9 @@
 package ocean.chinacraft;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
-import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
-import net.minecraft.block.Block;
-import net.minecraft.block.Blocks;
-import net.minecraft.block.CropBlock;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.fluid.Fluids;
 import net.minecraft.item.ArmorItem;
-import net.minecraft.item.ArmorMaterial;
 import net.minecraft.item.Item;
 import net.minecraft.item.SwordItem;
 import net.minecraft.util.Identifier;
@@ -27,7 +22,6 @@ import ocean.chinacraft.items.jade.JasperItem;
 import ocean.chinacraft.items.jade.PurpleJadeItem;
 import ocean.chinacraft.items.spell.*;
 import ocean.chinacraft.items.tools.*;
-import ocean.chinacraft.items.tools.BronzePickaxe;
 import ocean.chinacraft.items.tools.material.HammerMertiral;
 import ocean.chinacraft.items.tools.material.ModItemMaterial;
 

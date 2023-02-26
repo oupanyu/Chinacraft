@@ -8,16 +8,12 @@ import me.shedaniel.rei.api.client.gui.widgets.Widget;
 import me.shedaniel.rei.api.client.gui.widgets.Widgets;
 import me.shedaniel.rei.api.client.registry.display.DisplayCategory;
 import me.shedaniel.rei.api.common.category.CategoryIdentifier;
-import me.shedaniel.rei.api.common.display.DisplayMerger;
 import me.shedaniel.rei.api.common.util.EntryStacks;
-import me.shedaniel.rei.plugin.common.BuiltinPlugin;
-import me.shedaniel.rei.plugin.common.displays.DefaultStoneCuttingDisplay;
 import net.minecraft.text.Text;
 import net.minecraft.text.TranslatableText;
 import ocean.chinacraft.BlockRegister;
 import ocean.chinacraft.rei.REIClientPlugins;
 import ocean.chinacraft.rei.display.MortarDisplay;
-import org.jetbrains.annotations.Nullable;
 
 import java.util.List;
 
@@ -29,7 +25,7 @@ public class MortarDisplayCategory implements DisplayCategory<MortarDisplay> {
 
     @Override
     public Text getTitle() {
-        return new TranslatableText("chinacraft.recipe.mortar");
+        return new TranslatableText("category.chinacraft.recipe.mortar");
     }
 
     @Override

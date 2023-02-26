@@ -11,6 +11,7 @@
   "text.autoconfig.chinacraft.option.YAN_LONG_OTHER": "合成特殊的青铜大刀失败后返还的物品",
   "text.autoconfig.chinacraft.option.ENABLE_LIGHTNING_BAMBOO_GROWTH": "启用雷笋自然生长",
   "text.autoconfig.chinacraft.option.FOUR_BOOKS_HEALTH": "四书成就激活后获得的生命值加成",
+  "category.chinacraft.recipe.mortar" : "石磨",
 
 
 
@@ -40,10 +41,10 @@
   "block.chinacraft.peach_sapling": "桃树树苗",
   "block.chinacraft.peach_log": "桃树原木",
   "block.chinacraft.peach_planks": "桃木木板",
-  "block.chinacraft.sakura_leaves": "樱花树叶",
-  "block.chinacraft.sakura_sapling": "樱花树苗",
-  "block.chinacraft.sakura_log": "樱花原木",
-  "block.chinacraft.sakura_planks": "樱花木板",
+  "block.chinacraft.cherry_leaves": "樱花树叶",
+  "block.chinacraft.cherry_sapling": "樱花树苗",
+  "block.chinacraft.cherry_log": "樱花原木",
+  "block.chinacraft.cherry_planks": "樱花木板",
   "block.chinacraft.azalea": "映山红",
   "block.chinacraft.peony": "牡丹",
   "block.chinacraft.chrysanthemum": "菊花",

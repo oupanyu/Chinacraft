@@ -77,6 +77,11 @@ public class BlockRegister {
     public static final Block MULBERRY_LEAVES = register("mulberry_leaves",new Block(FabricBlockSettings.copy(Blocks.OAK_LEAVES)));
     public static final Block MULBERRY_SAPLING = register("mulberry_sapling",new ModSaplingBlock(new MulberrySaplingGenerator(),FabricBlockSettings.copy(Blocks.OAK_SAPLING)));
 
+    public static final Block CHERRY_LOG = register("cherry_log",new PillarBlock(FabricBlockSettings.copy(Blocks.OAK_LOG)));
+    public static final Block CHERRY_PLANKS = register("cherry_planks",new Block(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
+    public static final Block CHERRY_LEAVES = register("cherry_leaves",new Block(FabricBlockSettings.copy(Blocks.OAK_LEAVES)));
+    public static final Block CHERRY_SAPLING = register("cherry_sapling",new ModSaplingBlock(new MulberrySaplingGenerator(),FabricBlockSettings.copy(Blocks.OAK_SAPLING)));
+
     public static final Block JADE_WORKBENCH = register("jade_workbench_block",new JadeWorkbenchBlock(FabricBlockSettings.of(Material.STONE).requiresTool().hardness(2.0f)));
 
     public static final Block STONE_MORTAR = register("stone_mortar_block",new StoneMortarBlock(FabricBlockSettings.of(Material.STONE).requiresTool().hardness(2.0f)));

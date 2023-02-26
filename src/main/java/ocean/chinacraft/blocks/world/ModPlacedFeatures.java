@@ -11,4 +11,9 @@ public class ModPlacedFeatures {
             ModConfiguredFeatures.MULBERRY_SPAWN , VegetationPlacedFeatures.modifiers(
                     PlacedFeatures.createCountExtraModifier(0,0.5f,1)
             ));
+
+    public static final RegistryEntry<PlacedFeature> CHERRY_PLACED = PlacedFeatures.register("cherry_placed",
+            ModConfiguredFeatures.CHERRY_SPAWN , VegetationPlacedFeatures.modifiers(
+                    PlacedFeatures.createCountExtraModifier(0,0.5f,1)
+            ));
 }

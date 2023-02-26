@@ -1,6 +1,6 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "chinacraft:block/sakura_planks"
+    "all": "chinacraft:block/cherry_planks"
   }
 }
