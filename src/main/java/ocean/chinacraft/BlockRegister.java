@@ -3,6 +3,8 @@ package ocean.chinacraft;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.*;
+import net.minecraft.entity.effect.StatusEffect;
+import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.sound.BlockSoundGroup;
@@ -13,6 +15,7 @@ import ocean.chinacraft.blocks.LanternFestivalLanterns;
 import ocean.chinacraft.blocks.StoneLantern;
 import ocean.chinacraft.blocks.StoneMortarBlock;
 import ocean.chinacraft.blocks.world.sapling.ModSaplingBlock;
+import ocean.chinacraft.blocks.world.tree.CherrySaplingGenerator;
 import ocean.chinacraft.blocks.world.tree.MulberrySaplingGenerator;
 
 public class BlockRegister {
@@ -80,13 +83,18 @@ public class BlockRegister {
     public static final Block CHERRY_LOG = register("cherry_log",new PillarBlock(FabricBlockSettings.copy(Blocks.OAK_LOG)));
     public static final Block CHERRY_PLANKS = register("cherry_planks",new Block(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
     public static final Block CHERRY_LEAVES = register("cherry_leaves",new Block(FabricBlockSettings.copy(Blocks.OAK_LEAVES)));
-    public static final Block CHERRY_SAPLING = register("cherry_sapling",new ModSaplingBlock(new MulberrySaplingGenerator(),FabricBlockSettings.copy(Blocks.OAK_SAPLING)));
+    public static final Block CHERRY_SAPLING = register("cherry_sapling",new ModSaplingBlock(new CherrySaplingGenerator(),FabricBlockSettings.copy(Blocks.OAK_SAPLING)));
 
     public static final Block JADE_WORKBENCH = register("jade_workbench_block",new JadeWorkbenchBlock(FabricBlockSettings.of(Material.STONE).requiresTool().hardness(2.0f)));
 
     public static final Block STONE_MORTAR = register("stone_mortar_block",new StoneMortarBlock(FabricBlockSettings.of(Material.STONE).requiresTool().hardness(2.0f)));
 
     public static final Block RICES_EAR_SEEDS = register("rices_ear_seeds",new CropBlock(FabricBlockSettings.copy(Blocks.WHEAT).nonOpaque()));//米穗
+
+    public static final Block AZALEA = register("azalea",new FlowerBlock(StatusEffects.MINING_FATIGUE,2, FabricBlockSettings.copy(Blocks.DANDELION)));//花
+    public static final Block PEONY = register("peony",new FlowerBlock(StatusEffects.MINING_FATIGUE,2, FabricBlockSettings.copy(Blocks.DANDELION)));
+    public static final Block CHRYSANTHEMUM = register("chrysanthemum",new FlowerBlock(StatusEffects.MINING_FATIGUE,2, FabricBlockSettings.copy(Blocks.DANDELION)));
+
     //public static final Block
 
 

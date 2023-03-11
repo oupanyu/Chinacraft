@@ -49,6 +49,22 @@ public class ModConfiguredFeatures {
     );
 
 
+    public static final RegistryEntry<ConfiguredFeature<RandomPatchFeatureConfig, ?>> AZALEA =
+            ConfiguredFeatures.register("azalea_flower", Feature.FLOWER,
+                    ConfiguredFeatures.createRandomPatchFeatureConfig(32, PlacedFeatures.createEntry(Feature.SIMPLE_BLOCK,
+                            new SimpleBlockFeatureConfig(BlockStateProvider.of(BlockRegister.AZALEA)))));
+
+    public static final RegistryEntry<ConfiguredFeature<RandomPatchFeatureConfig, ?>> PEONY =
+            ConfiguredFeatures.register("peony_flower", Feature.FLOWER,
+                    ConfiguredFeatures.createRandomPatchFeatureConfig(32, PlacedFeatures.createEntry(Feature.SIMPLE_BLOCK,
+                            new SimpleBlockFeatureConfig(BlockStateProvider.of(BlockRegister.PEONY)))));
+
+    public static final RegistryEntry<ConfiguredFeature<RandomPatchFeatureConfig, ?>> CHRYSANTHEMUM =
+            ConfiguredFeatures.register("chrysanthemum", Feature.FLOWER,
+                    ConfiguredFeatures.createRandomPatchFeatureConfig(32, PlacedFeatures.createEntry(Feature.SIMPLE_BLOCK,
+                            new SimpleBlockFeatureConfig(BlockStateProvider.of(BlockRegister.CHRYSANTHEMUM)))));
+
+
     public static void registry(){
         Chinacraft.LOGGER.info("registering tree structures..");
     }

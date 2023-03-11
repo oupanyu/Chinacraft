@@ -3,10 +3,10 @@ package ocean.chinacraft;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.fluid.Fluids;
-import net.minecraft.item.ArmorItem;
-import net.minecraft.item.Item;
-import net.minecraft.item.SwordItem;
+import net.minecraft.item.*;
+import net.minecraft.sound.SoundEvents;
 import net.minecraft.util.Identifier;
+import net.minecraft.util.Rarity;
 import net.minecraft.util.registry.Registry;
 import ocean.chinacraft.items.CCNormalItem;
 import ocean.chinacraft.items.ModHammer;
@@ -120,13 +120,23 @@ public class ItemRegister {
 
 
     //青铜套装
-    public static final Item BRONZE_HELMET = register("bronze_head",new ArmorItem(ArmorMarteial.BRONZE_ARMOR, EquipmentSlot.HEAD,new FabricItemSettings()));
-    public static final Item BRONZE_CHEST = register("bronze_chest",new ArmorItem(ArmorMarteial.BRONZE_ARMOR, EquipmentSlot.CHEST,new FabricItemSettings()));
-    public static final Item BRONZE_LEGGINGS = register("bronze_leggings" ,new ArmorItem(ArmorMarteial.BRONZE_ARMOR, EquipmentSlot.LEGS,new FabricItemSettings()));
-    public static final Item BRONZE_BOOTS = register("bronze_feet",new ArmorItem(ArmorMarteial.BRONZE_ARMOR, EquipmentSlot.FEET,new FabricItemSettings()));
+    public static final Item BRONZE_HELMET = register("bronze_head",new ArmorItem(ArmorMarteial.BRONZE_ARMOR, EquipmentSlot.HEAD,new FabricItemSettings().group(ITEM_GROUP)));
+    public static final Item BRONZE_CHEST = register("bronze_chest",new ArmorItem(ArmorMarteial.BRONZE_ARMOR, EquipmentSlot.CHEST,new FabricItemSettings().group(ITEM_GROUP)));
+    public static final Item BRONZE_LEGGINGS = register("bronze_leggings" ,new ArmorItem(ArmorMarteial.BRONZE_ARMOR, EquipmentSlot.LEGS,new FabricItemSettings().group(ITEM_GROUP)));
+    public static final Item BRONZE_BOOTS = register("bronze_feet",new ArmorItem(ArmorMarteial.BRONZE_ARMOR, EquipmentSlot.FEET,new FabricItemSettings().group(ITEM_GROUP)));
+
+    //夜行衣
+    public static final Item NIGHT_CLOTHES_HEAD = register("night_clothes_head",new ArmorItem(ArmorMarteial.SILK_NIGHT_ARMOR, EquipmentSlot.HEAD,new FabricItemSettings().group(ITEM_GROUP)));
+    public static final Item NIGHT_CLOTHES_CHEST = register("night_clothes_chest",new ArmorItem(ArmorMarteial.SILK_NIGHT_ARMOR, EquipmentSlot.CHEST,new FabricItemSettings().group(ITEM_GROUP)));
+    public static final Item NIGHT_CLOTHES_LEGS = register("night_clothes_legs" ,new ArmorItem(ArmorMarteial.SILK_NIGHT_ARMOR, EquipmentSlot.LEGS,new FabricItemSettings().group(ITEM_GROUP)));
+    public static final Item NIGHT_CLOTHES_FEET = register("night_clothes_feet",new ArmorItem(ArmorMarteial.SILK_NIGHT_ARMOR, EquipmentSlot.FEET,new FabricItemSettings().group(ITEM_GROUP)));
+
 
     public static final Item MUlBERRY_LEAF = registerNormalItem("mulberry_leaf");
     public static final Item SILKWORM_EGG = registerNormalItem("silkworm_egg");
+
+    public static final Item MUSIC_DISC_ASFABRP = register("a_song_for_a_barbarian_reed_pipe", new MusicDiscItem(10, ModSoundEvents.ASFABRP, new Item.Settings().maxCount(1).group(ITEM_GROUP)));
+
 
     public static void register(){
         Chinacraft.LOGGER.info("Registering Items...");

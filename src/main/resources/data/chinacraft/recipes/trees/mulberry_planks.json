@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "chinacraft:mulberry_log"
+    }
+  ],
+  "result": {
+    "item": "chinacraft:mulberry_planks",
+    "count": 4
+  }
+}

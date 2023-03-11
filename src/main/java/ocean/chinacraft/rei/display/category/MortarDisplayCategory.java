@@ -12,6 +12,7 @@ import me.shedaniel.rei.api.common.util.EntryStacks;
 import net.minecraft.text.Text;
 import net.minecraft.text.TranslatableText;
 import ocean.chinacraft.BlockRegister;
+import ocean.chinacraft.client.screen.StoneMortarScreen;
 import ocean.chinacraft.rei.REIClientPlugins;
 import ocean.chinacraft.rei.display.MortarDisplay;
 
@@ -38,6 +39,7 @@ public class MortarDisplayCategory implements DisplayCategory<MortarDisplay> {
         Point startPoint = new Point(bounds.getCenterX() - 41, bounds.getCenterY() - 13);
         List<Widget> widgets = Lists.newArrayList();
         widgets.add(Widgets.createRecipeBase(bounds));
+        widgets.add(Widgets.createLabel(new Point(startPoint.x + 47,startPoint.y - 13),new TranslatableText("category.chinacraft.recipe.mortar")).noShadow().rightAligned().color(0xFF404040, 0xFFBBBBBB));
         widgets.add(Widgets.createArrow(new Point(startPoint.x + 27, startPoint.y + 4)).animationDurationTicks(100));
         widgets.add(Widgets.createResultSlotBackground(new Point(startPoint.x + 61, startPoint.y + 5)));
         widgets.add(Widgets.createSlot(new Point(startPoint.x + 61, startPoint.y + 5))

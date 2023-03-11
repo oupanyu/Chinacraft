@@ -1,10 +1,13 @@
 package ocean.chinacraft.util;
 
+import net.minecraft.entity.ai.TargetPredicate;
+import net.minecraft.entity.mob.MobEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.ArmorItem;
 import net.minecraft.item.ArmorMaterial;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Items;
+import net.minecraft.util.math.Box;
 
 import java.util.List;
 import java.util.Random;
@@ -71,5 +74,10 @@ public class ModUtil {
                     l.getMaterial() == material && b.getMaterial() == material;
         }
         return false;
+    }
+
+    public static List<MobEntity> getNearbyMobs(PlayerEntity player, int range, TargetPredicate conditions) {
+        Box inflate = player.getBoundingBox().expand(range, range, range);
+        return player.world.getTargets(MobEntity.class, conditions, player, inflate);
     }
 }

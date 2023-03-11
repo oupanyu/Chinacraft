@@ -41,9 +41,6 @@ public class SilkNightArmor extends ArmorItem {
     }
     @Override
     public void inventoryTick(ItemStack stack, World world, Entity entity, int slot, boolean selected) {
-        if (entity instanceof PlayerEntity player && invalid(player)){
 
-
-        }
     }
 }

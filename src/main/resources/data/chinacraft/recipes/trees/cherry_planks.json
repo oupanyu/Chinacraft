@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "chinacraft:cherry_log"
+    }
+  ],
+  "result": {
+    "item": "chinacraft:cherry_planks",
+    "count": 4
+  }
+}
